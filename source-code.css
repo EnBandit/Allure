@@ -22,6 +22,18 @@
   src: url('/custom/Monaco.ttf') format('ttf');
 }
 
+@font-face {
+    font-family: 'PingfangSCBold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/custom/PingfangSCBold.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'PingfangSCBold';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/custom/PingfangSCBold.ttf') format('ttf');
+  }
 
 html {
 /* ----------------------------------------------------------------------------- */
@@ -242,6 +254,11 @@ body p {
     margin: var(--spacing-content-normal) 0;
     font-family: var(--font-body);
 }
+/* 所有加粗文本都将使用PingFang SC Bold */
+body strong {
+    font-weight: normal;
+    font-family: 'PingfangSCBold', sans-serif;
+  }
 
 /* LAYOUT - Icons */
 body .trilium-allure-icons {
@@ -1447,11 +1464,19 @@ body .ck-content hr {
 
 /* blockquote */
 body .ck-content blockquote {
-    border: none;
-    padding: 1.2em 1.6em;
+    /* border: none;
+    padding: 1.2em 1.6em; */
     font-style: normal;
-    border-radius: var(--border-radius-standard);
+    /* text-align: center; */
+    /* border-radius: var(--border-radius-standard); */
     font-size: 14px;
+    padding-left: 1em;
+    padding-top: 0;
+    padding-bottom: 0px;
+    /* line-height: 14px; */
+
+    /* margin-top: -2px !important; */
+    border-left: 3px solid rgb(196, 199, 206)!important;
 }
 
 /* include note */
