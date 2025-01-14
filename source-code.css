@@ -1184,7 +1184,8 @@ body .title-row .note-title-widget .note-title {
     font-size: 1.6em;
     font-weight: 700;
     font-family: var(--font-headers);
-    
+    background-color: var(--color-background-primary);
+
     line-height: 1.4em;
     margin-left: -12px;
     width: calc(100% + 24px);

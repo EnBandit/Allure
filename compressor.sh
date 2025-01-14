@@ -77,7 +77,14 @@ for (( i = 0; i <= ${#theme[@]}; i++ )); do
         # if [[ ${radical} == "true" ]]; then
         #     xclip -sel clip ${min_file_radical}
         # else
-            xclip -sel clip ${min_file}
+            echo "${content_raw}" \
+    | sed "s/\/\*.*\*\///g;/\/\*/,/\*\// d" \
+    | tr '\n' ' ' \
+    | tr -s ' ' ' ' \
+    | sed -r 's/[ ]*([:{}},;])[ ]*/\1/g'\
+    | sed 's/::/ ::/g' \
+    | sed 's/^[ ][ ]*//g' \
+    | sed '/^$\|^\s*$/d' | clip
         # fi
     fi
 
