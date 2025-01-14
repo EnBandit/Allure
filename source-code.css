@@ -156,9 +156,9 @@ html {
 /* FONT VARIABLES                                                                */
 /* ----------------------------------------------------------------------------- */
 
-    --font-headers                  : Monaco, Noto Sans CJK SC, 'Source Sans Pro', 'Liberation Sans', Helvetica Neue, Microsoft YaHei, Sans-serif;
+    --font-headers                  : -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
     --font-body                     : var(--font-headers);
-    --font-code                     : Monaco, 'Fira Code', 'Source Code Pro', Courier, Monospace;
+    --font-code                     : 'Monaco', 'Fira Code', 'Source Code Pro', Courier, Monospace;
 
 /* ----------------------------------------------------------------------------- */
 /* LAYOUT VARIABLES                                                                */
@@ -254,11 +254,6 @@ body p {
     margin: var(--spacing-content-normal) 0;
     font-family: var(--font-body);
 }
-/* 所有加粗文本都将使用PingFang SC Bold */
-body strong {
-    font-weight: normal;
-    font-family: 'PingfangSCBold', sans-serif;
-  }
 
 /* LAYOUT - Icons */
 body .trilium-allure-icons {
@@ -1187,8 +1182,9 @@ body .title-row .spacer {
 body .title-row .note-title-widget .note-title {
     padding: 6px 12px;
     font-size: 1.6em;
-    font-weight: bold;
+    font-weight: 700;
     font-family: var(--font-headers);
+    
     line-height: 1.4em;
     margin-left: -12px;
     width: calc(100% + 24px);
