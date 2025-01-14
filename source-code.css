@@ -1174,7 +1174,7 @@ body .title-row {
 }
 body .title-row .note-title-widget {
 /*    margin: auto;*/
-    max-width: var(--width-actual-note-body);
+    /* max-width: var(--width-actual-note-body); */
 }
 body .title-row .spacer {
     display: none;
@@ -1188,7 +1188,7 @@ body .title-row .note-title-widget .note-title {
 
     line-height: 1.4em;
     margin-left: -12px;
-    width: calc(100% + 24px);
+    width: calc(100%);
 }
 body .title-row .note-title-widget .note-title:focus-visible {
     outline: none;
