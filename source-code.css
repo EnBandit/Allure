@@ -946,13 +946,13 @@ body .fancytree-node:not(.fancytree-loading) .fancytree-expander {
 body .fancytree-node:not(.fancytree-loading) .fancytree-expander:before {
     content: "\e616";
     font-family: "trilium-allure-icons" !important;
-    font-size: .8em;
+    font-size: 1.0em;
     top: 0;
 }
 body .fancytree-node.fancytree-expanded .fancytree-expander:before {
     content: "\e622";
     font-family: "trilium-allure-icons" !important;
-    font-size: .8em;
+    font-size: 1.0em;
     top: 0;
 }
 
