@@ -393,6 +393,7 @@ body .fancytree-node:hover .add-note-button {
     padding: 4px;
     font-family: 'trilium-allure-icons' !important;
     line-height: 1ex;
+    font-size: 1.0em;
 }
 body .tree-item-button:hover {
     border: var(--border-transparent);
