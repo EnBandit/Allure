@@ -1457,8 +1457,10 @@ body .ck.ck-button.ck-switchbutton .ck-button__toggle {
 
 /* hr */
 body .ck-content hr {
-    margin: 48px 64px;
-    height: 1px;
+    border: 4px dashed #808080;
+    background-color: transparent;
+    margin: 0px 0px;
+    height: 4px;
 }
 
 
