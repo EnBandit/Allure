@@ -1090,7 +1090,7 @@ body .note-detail,
 body .note-list-widget {
     margin: auto;
 /*    max-width: var(--width-actual-note-body);*/
-    margin-bottom: 68px;
+    margin-bottom: 28px;
 }
 body .note-detail {
     padding: var(--padding-inside-note-body);
