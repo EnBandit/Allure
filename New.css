@@ -559,7 +559,7 @@ body .cm-s-default .cm-builtin {
 
 /* Note Details - title */
 body .title-row {
-    margin: 32px 0 16px;
+    margin: 12px 0 16px;
     line-height: 4em;
 }
 body .title-row .note-title-widget {
