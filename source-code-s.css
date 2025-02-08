@@ -22,18 +22,6 @@
   src: url('/custom/Monaco.ttf') format('ttf');
 }
 
-@font-face {
-    font-family: 'PingfangSCBold';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/custom/PingfangSCBold.ttf') format('ttf');
-  }
-  @font-face {
-    font-family: 'PingfangSCBold';
-    font-style: normal;
-    font-weight: 600;
-    src: url('/custom/PingfangSCBold.ttf') format('ttf');
-  }
 
 html {
 /* ----------------------------------------------------------------------------- */
