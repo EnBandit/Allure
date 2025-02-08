@@ -822,7 +822,7 @@ body .split-note-container-widget > .component > .component {
 body .split-note-container-widget > .component {
     overflow: auto;
     margin-bottom: 43px;
-    padding: 0 24px;
+    /* padding: 0 24px; */
 }
 
 /* table */
