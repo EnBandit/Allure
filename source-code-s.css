@@ -168,8 +168,7 @@
   
       /* Use a larger size for the frequently used buttons on the left */
       --size-left-pane-button         : 1.2em;
-  
-  
+
   
   
       --active-tab-text-color               : var(--color-text-primary);
@@ -455,6 +454,10 @@
   }
   body textarea:focus-visible {
       outline: none;
+  }
+
+  .vertical-layout #center-pane{
+    border-radius: unset !important;
   }
   
   
@@ -783,7 +786,19 @@ body .btn:focus {
   /*    border-right: var(--border-light);*/
   /*    border-bottom: var(--border-light);*/
   }
-  
+  body .tab-row-widget .note-tab[active] .note-tab-wrapper {
+    font-weight: normal;
+    border-bottom: none;
+}
+body .tab-row-widget .note-tab[active] .note-tab-wrapper:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--code-blue);
+}
 
   /* Tabs - note tab close button */
   body .tab-row-widget .note-tab .note-tab-close span {
