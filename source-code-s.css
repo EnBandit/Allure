@@ -777,7 +777,7 @@ body .btn:focus {
   /*    margin-top: 10px;*/
   }
   body .tab-row-widget:first-of-type .note-tab .note-tab-wrapper {
-      padding: 6px 16px 6px 14px;
+      padding: 6px 16px 6px 10px;
   /*    margin-left: -5px;*/
   /*    border-right: var(--border-light);*/
   /*    border-bottom: var(--border-light);*/
