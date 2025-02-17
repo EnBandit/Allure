@@ -940,7 +940,7 @@ body .tab-row-widget .note-tab[active] .note-tab-wrapper:after {
       background-color: var(--color-background-primary);
   
       line-height: 1.4em;
-      margin-left: -12px;
+      /* margin-left: -12px; */
       width: calc(100%);
   }
   body .title-row .note-title-widget .note-title:focus-visible {
