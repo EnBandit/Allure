@@ -19,7 +19,7 @@ clip=clear
 theme=(clear night)
 
 cd `dirname "$0"`
-source_file="New.css"
+source_file="source-code-s.css"
 
 for (( i = 0; i <= ${#theme[@]}; i++ )); do
     min_file="Allure-"${theme[i]}".css"
