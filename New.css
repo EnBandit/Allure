@@ -356,12 +356,15 @@ body .title-bar-buttons div button:before {
     font-family: 'trilium-allure-icons';
 }
 body .title-bar-buttons div button.minimize-btn:before {
+    display: none;
     content: '\e9c0';
 }
 body .title-bar-buttons div button.maximize-btn:before {
+    display: none;
     content: '\e9bc';
 }
 body .title-bar-buttons div button.close-btn:before {
+    display: none;
     content: '\e9bb';
 }
 
@@ -377,7 +380,7 @@ body .title-bar-buttons .top-btn.active button.btn.bx.bx-pin {
     color: var(--color-button-highlight) !important;
 }
 
-body .fancytree-node:hover .add-note-button {
+/* body .fancytree-node:hover .add-note-button {
     padding: 4px;
     font-family: 'trilium-allure-icons' !important;
     line-height: 1ex;
@@ -385,7 +388,7 @@ body .fancytree-node:hover .add-note-button {
 }
 body .tree-item-button:hover {
     border: var(--border-transparent);
-}
+} */
 
 /* LINK */
 body a,
@@ -424,6 +427,7 @@ body #center-pane + .gutter.gutter-horizontal {
 /* WINDOWS BUTTON */
 body .title-bar-buttons {
     line-height: 1;
+    display: none !important;
 /*    border-bottom: var(--border-light);*/
 }
 body .title-bar-buttons div {
@@ -455,6 +459,9 @@ body textarea {
 body textarea:focus-visible {
     outline: none;
 }
+
+
+
 
 /*---------------------------------------------------------------*/
 /* RIGHT PANEL                                                   */
