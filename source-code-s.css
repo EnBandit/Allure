@@ -831,6 +831,7 @@ body .btn:focus {
       padding: 6px;
       font-size: 0;
       margin: auto;
+      display: none;
   }
   body .note-new-tab:before {
       content: "\ebc0";
