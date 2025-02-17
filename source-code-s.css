@@ -784,19 +784,7 @@ body .btn:focus {
   /*    border-bottom: var(--border-light);*/
   }
   
-  body .tab-row-widget .note-tab[active] .note-tab-wrapper {
-      font-weight: normal;
-      border-bottom: none;
-  }
-  body .tab-row-widget .note-tab[active] .note-tab-wrapper:after {
-      content: "";
-      height: 2px;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      background-color: var(--code-blue);
-  }
+
   /* Tabs - note tab close button */
   body .tab-row-widget .note-tab .note-tab-close span {
       display: none;
@@ -823,21 +811,7 @@ body .btn:focus {
       /* content: "\e652"; */
       font-size: 15px;
   }
-  /* new tab button */
-  body .tab-row-widget .tab-row-widget-container .note-new-tab {
-      transform: none;
-      width: unset;
-      height: unset;
-      line-height: 1;
-      padding: 6px;
-      font-size: 0;
-      margin: auto;
-      display: none;
-  }
-  body .note-new-tab:before {
-      content: "\ebc0";
-      font-size: 14px;
-  }
+
   
   body .tab-row-filler {
       transform: unset;
