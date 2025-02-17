@@ -424,6 +424,7 @@
   /* WINDOWS BUTTON */
   body .title-bar-buttons {
       line-height: 1;
+      display: none !important;
   /*    border-bottom: var(--border-light);*/
   }
   body .title-bar-buttons div {
