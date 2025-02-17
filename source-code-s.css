@@ -805,7 +805,7 @@
   }
   
   /* tree button */
-  body button.tree-floating-button {
+  /* body button.tree-floating-button {
       display: none;
   }
   
@@ -815,7 +815,7 @@
   }
   body .fancytree-node:hover .bx.tree-item-button {
       display: block;
-  }
+  } */
   
   
   
