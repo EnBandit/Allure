@@ -709,7 +709,15 @@
         height: 36px !important;
     }
 
+#left-pane span.tree-item-button.add-note-button.bx.bx-plus {
+    /* display: none !important; */
+    box-shadow: none !important;
+}
 
+/* body .btn.focus,
+body .btn:focus {
+    box-shadow: unset !important;
+} */
   /* tree button */
   /* body button.tree-floating-button {
       display: none;
@@ -734,10 +742,10 @@
   body #rest-pane > .component:first-child {
       height: var(--height-top-bar) !important;
   }
-  body #rest-pane > .component:first-child .bx,
+  /* body #rest-pane > .component:first-child .bx,
   body #rest-pane > .component:first-child *:before {
       font-family: 'trilium-allure-icons' !important;
-  }
+  } */
   
   body .scroll-padding-widget {
       max-height: 32px !important;
@@ -811,8 +819,8 @@
       background-color: var(--color-background-item);
   }
   body .note-tab-close:before {
-      content: "\e652";
-      font-size: 12px;
+      /* content: "\e652"; */
+      font-size: 15px;
   }
   /* new tab button */
   body .tab-row-widget .tab-row-widget-container .note-new-tab {
