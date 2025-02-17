@@ -1239,11 +1239,27 @@ body .btn:focus {
       padding-top: 0;
       padding-bottom: 0px;
       /* line-height: 14px; */
-  
+    /* From TNTheme */
+    background: unset;
+    border: unset !important;
+    box-shadow: unset;
+    border-radius: unset;
+    padding: unset;
+    position: relative;
       /* margin-top: -2px !important; */
       border-left: 3px solid rgb(196, 199, 206)!important;
+      font-style: normal !important;
+      padding-left: 1em !important;
+        padding-top: 0 !important;
+        padding-bottom: 0px !important;
   }
-  
+  .ck-content blockquote:before {
+    display : none;
+}
+
+.ck-content blockquote:after {
+    display : none;
+}
   /* include note */
   
   /*body .include-note {
