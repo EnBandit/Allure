@@ -697,113 +697,19 @@
   /* LEFT PANEL                                                    */
   /*---------------------------------------------------------------*/
   
-  body #left-pane {
-      border-left: var(--border-light);
-  }
-  body .ui-fancytree > li > ul {
-      padding-left: 0;
-  }
-  body .fancytree-active,
-  body .fancytree-active.fancytree-selected,
-  body .fancytree-node,
-  body .tree .fancytree-node:hover {
-      border: none;
-      border-bottom-left-radius: var(--border-radius-standard) !important;
-      border-top-left-radius: var(--border-radius-standard) !important;
-      border-top-right-radius: 0 !important;
-      border-bottom-right-radius: 0 !important;
-  }
-  body .tree .fancytree-node:hover {
-      background-color: var(--color-background-secondary);
-  }
-  
-  /* search bar */
-  body #left-pane input {
-      box-shadow: none;
-      border-bottom: var(--border-light);
-      height: var(--height-top-bar);
-      padding: 0 14px;
-      font-size: 14px !important;
-      margin-left: 1px;
-  /*    margin-right: -1px;*/
-  }
-  /*body #left-pane input:before {
-      content: "\ebf7";
-      font-family: 'trilium-allure-icons' !important;
-  }*/
-  body #left-pane .search-button {
-      display: none;
-  }
-  body #left-pane .quick-search input::placeholder {
-      font-size: 12px;
-      color: var(--color-border);
-  }
-  
-  /* icon */
-  body .fancytree-node:not(.fancytree-loading) .fancytree-expander:before {
-      font-size: inherit;
-      font-family: 'trilium-allure-icons' !important;
-  /*    color: #CCCED1;*/
-      top: 0;
-      margin-right: 0;
-      content: '\e616';
-  }
-  body .fancytree-node:not(.fancytree-folder) .fancytree-expander:before {
-      display: none;
-  }
-  
-  
-  /* Toast tip */
-  body .bs-tooltip-right .arrow::before {
-      border-right-color: var(--color-background-accent) !important;
-  }
+
   
   /* NOTE LIST */
-  
+  /* 字体大小 */
   body .tree-wrapper {
-      font-size: 14px;
+      font-size: 16px !important;
   }
-  body .fancytree-node {
-      padding: 3px 14px;
-      line-height: 2em;
-      height: unset;
-      margin: 0;
-      display: flex;
-      flex-flow: row nowrap;
-  }
-  
-  /* title */
-  body .fancytree-title {
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-      margin-left: 0;
-      font-family: var(--font-body);
-      top: unset;
-  }
-  body .fancytree-active .fancytree-title {
-      font-weight: normal;
-  }
-  
-  /* expander */
-  body .fancytree-node:not(.fancytree-loading) .fancytree-expander {
-      line-height: 1ex;
-      vertical-align: middle;
-      order: 4;
-  }
-  body .fancytree-node:not(.fancytree-loading) .fancytree-expander:before {
-      content: "\e616";
-      font-family: "trilium-allure-icons" !important;
-      font-size: 1.0em;
-      top: 0;
-  }
-  body .fancytree-node.fancytree-expanded .fancytree-expander:before {
-      content: "\e622";
-      font-family: "trilium-allure-icons" !important;
-      font-size: 1.0em;
-      top: 0;
-  }
-  
+  .fancytree-node {
+    /* 字体高度 */
+        height: 36px !important;
+    }
+
+
   /* tree button */
   /* body button.tree-floating-button {
       display: none;
