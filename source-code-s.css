@@ -303,7 +303,7 @@
       border-color: transparent;
   }
   body .fancytree-custom-icon {
-      margin-right: 10px;
+      margin-right: 2px;
   }
   /*body .fancytree-expander {
       visibility: visible;
@@ -716,6 +716,9 @@
 #left-pane span.tree-item-button.add-note-button.bx.bx-plus {
     /* display: none !important; */
     box-shadow: none !important;
+}
+#left-pane div.tree{
+    padding: 3px 2px 40px 2px !important;
 }
 
 /* body .btn.focus,
