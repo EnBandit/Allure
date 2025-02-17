@@ -1131,12 +1131,14 @@ body .tab-row-widget .note-tab[active] .note-tab-wrapper:after {
   
   /* share note */
   body .shared-info-widget {
-      font-weight: normal;
-      font-size: .9em;
-      line-height: 1.6em;
+      font-weight: normal !important;
+      font-size: .9em !important;
+      line-height: 1.6em !important;
       border: none !important;
-      margin: 16px 0px;
-      padding: 10px 16px;
+      margin: 16px 0px !important;
+      padding: 10px 16px !important;
+      border-bottom: unset !important;
+      background: unset !important;
   }
   
   
