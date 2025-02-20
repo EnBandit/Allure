@@ -977,7 +977,7 @@ body .tab-row-widget .note-tab[active] .note-tab-wrapper:after {
   body .ribbon-tab-title .bx,
   body .ribbon-button-container .icon-action {
       font-size: 1.2em;
-      padding: 2px;
+      padding: 2px !important;
   }
   body .ribbon-button-container .icon-action.bx-history,
   body .ribbon-button-container .icon-action.bx-edit-alt {
