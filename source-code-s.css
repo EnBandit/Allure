@@ -764,6 +764,7 @@ body .btn:focus {
       transform: none;
       max-width: fit-content;
       flex-grow: 1;
+      border-radius: 8px;
   }
   body .tab-row-widget .note-tab,
   body .tab-row-widget .note-tab .note-tab-wrapper,
@@ -980,7 +981,7 @@ body .tab-row-widget .note-tab[active] .note-tab-wrapper:after {
   }
   body .ribbon-button-container .icon-action.bx-history,
   body .ribbon-button-container .icon-action.bx-edit-alt {
-      padding: 8px;
+      padding: 2px;
       margin: 0 4px;
       display: inline-block !important;
   }
