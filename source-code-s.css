@@ -304,6 +304,7 @@
   }
   body .fancytree-custom-icon {
       margin-right: 2px;
+      display: none !important;
   }
   /*body .fancytree-expander {
       visibility: visible;
@@ -711,6 +712,15 @@
   .fancytree-node {
     /* 字体高度 */
         height: 36px !important;
+    }
+    .fancytree-title{
+        margin-left: 0px !important;
+    }
+    .fancytree-custom-icon{
+        display: none !important;
+    }
+    .fancytree-node:not(.fancytree-loading) .fancytree-expander:before{
+        margin-right: 0px !important;
     }
 
 #left-pane span.tree-item-button.add-note-button.bx.bx-plus {
