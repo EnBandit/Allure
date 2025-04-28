@@ -227,6 +227,18 @@
       --input-background-color        : var(--color-background-primary);
   }
 
+
+  .fancytree-title{
+    margin-left: 1px !important;
+}
+
+  .fancytree-custom-icon{
+    display: none !important;
+}
+.fancytree-node:not(.fancytree-loading) .fancytree-expander:before{
+    margin-right: 0px !important;
+}
+  /* Right */
   /* Note Details */
   body .note-detail,
   body .note-list-widget {
@@ -486,9 +498,9 @@
   body .attribute-list {
       margin-top: 0;
   }
-  body .bx-plus:before {
+  /* body .bx-plus:before {
       font-size: .8em;
-  }
+  } */
   
   
   /* table of content */
