@@ -783,6 +783,7 @@ body .btn:focus {
   }
   body .tab-row-widget .tab-row-widget-container {
       display: flex;
+      width: auto;
   }
   body .tab-row-widget .note-tab .note-tab-title {
       font-size: .9em;
