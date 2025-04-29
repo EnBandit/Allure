@@ -13,13 +13,13 @@
     font-family: 'Monaco';
     font-style: normal;
     font-weight: 400;
-    src: url('/custom/Monaco.ttf') format('ttf');
+    src: url('/custom/Monaco.woff2') format('woff2');
   }
   @font-face {
     font-family: 'Monaco';
     font-style: normal;
     font-weight: 600;
-    src: url('/custom/Monaco.ttf') format('ttf');
+    src: url('/custom/Monaco.woff2') format('woff2');
   }
   
   
@@ -632,7 +632,7 @@
       padding-top: 0;
       padding-bottom: 0px;
       /* line-height: 14px; */
-    /* From TNTheme */
+    /* From TriliumNextTheme */
     background: unset;
     border: unset !important;
     box-shadow: unset;
@@ -980,11 +980,16 @@
   
   /* h2 */
   body .ck-content h2 {
-      font-size: 1.4em;
-      margin-top: 2.4em;
-      margin-bottom: 1.2em;
-      border-bottom: var(--border-standard);
-      padding-bottom: 12px;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    line-height: 2.25rem;
+    letter-spacing: -.0125em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px !important;
+    /* margin-bottom: 1.2em; */
+    border-bottom: var(--border-standard);
   }
   /*body .ck-content h2:after,
   body.mobile .ck-content h2:after {
@@ -1005,9 +1010,14 @@
   
   /* h3 */
   body .ck-content h3 {
-      font-size: 1.4em;
-      margin-bottom: 1.4rem;
-      margin-top: 3.0rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.25rem !important;
+    line-height: 2rem;
+    letter-spacing: -.0125em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px !important;
   }
   body .note-detail h3::before {
       content: ' ' !important;
