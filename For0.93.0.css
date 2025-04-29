@@ -989,7 +989,7 @@
     margin-right: auto;
     margin-bottom: 0px !important;
     /* margin-bottom: 1.2em; */
-    border-bottom: var(--border-standard);
+    /* border-bottom: var(--border-standard); */
   }
   /*body .ck-content h2:after,
   body.mobile .ck-content h2:after {
@@ -1122,6 +1122,7 @@
     margin-top: 1.25rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
   }
   body .note-detail .ck-content p:last-child {
       margin-bottom: 0;
