@@ -27,7 +27,7 @@
   }
   @font-face {
     font-family: "Inter-Regular"; 
-    src: url('/custom/Inter-Regular.ttf') format('ttf');
+    src: url('/custom/Inter-Regular.woff2') format('woff2');
   }
   
   html {
@@ -151,7 +151,7 @@
   /* FONT VARIABLES                                                                */
   /* ----------------------------------------------------------------------------- */
   
-      --font-headers                  : "Inter-Regular", "abcFavorit", -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+      --font-headers                  : "Inter-Regular", "abcFavorit", -apple-system, system-ui, arial;
       --font-body                     : var(--font-headers);
       --font-code                     : "abcFavorit", 'Fira Code', 'Source Code Pro', Courier, Monospace;
   
@@ -618,6 +618,10 @@
       color: var(--color-text-primary);
   }
   
+  .ck-content .image{
+    margin-top: 1.25rem !important;
+    margin-bottom: 0 !important;
+  }
   /* hr */
   body .ck-content hr {
       border: 4px dashed #808080;
