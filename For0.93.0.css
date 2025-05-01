@@ -943,6 +943,24 @@
       overflow: auto;
   }*/
   
+
+  /* 第一层 ul（直接子级） */
+.ck-content > ul {
+    margin-top: 1.25rem;
+  }
+  
+  /* 所有嵌套层 ul（第二层及之后） */
+  .ck-content ul ul {
+    margin-top: .5rem; 
+  }
+
+  .ck-content li{
+    margin-top: .5rem;
+  }
+
+  .ck.ck-editor__editable_inline>:last-child{
+    margin-bottom: 0 !important;
+  }
   
   /* HEADING */
   
