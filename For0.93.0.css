@@ -21,7 +21,14 @@
     font-weight: 600;
     src: url('/custom/abcFavorit.woff2') format('woff2');
   }
-  
+  @font-face {
+    font-family: "gitbook-code-font"; 
+    src: url('/custom/gitbook-code-font.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: "Inter-Regular"; 
+    src: url('/custom/Inter-Regular.ttf') format('ttf');
+  }
   
   html {
   /* ----------------------------------------------------------------------------- */
@@ -144,7 +151,7 @@
   /* FONT VARIABLES                                                                */
   /* ----------------------------------------------------------------------------- */
   
-      --font-headers                  : "abcFavorit", -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+      --font-headers                  : "Inter-Regular", "abcFavorit", -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
       --font-body                     : var(--font-headers);
       --font-code                     : "abcFavorit", 'Fira Code', 'Source Code Pro', Courier, Monospace;
   
@@ -908,7 +915,13 @@
   body .ck-content pre:not(.CodeMirror-line) {
       border: none;
       border-radius: var(--border-radius-standard);
-      margin: 1.6em 0;
+      margin-top: 1.25rem !important;
+        margin-bottom: 0 !important;
+      font-family: gitbook-code-font, Menlo, monospace;
+  }
+  body .ck-content code{
+    font-size: 11.5px !important;
+    /* font-family: gitbook-code-font, Menlo, monospace !important; */
   }
   
   /* Make the title scrollable */
