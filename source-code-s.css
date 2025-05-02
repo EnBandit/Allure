@@ -1617,12 +1617,12 @@ body .tab-row-widget .note-tab[active] .note-tab-wrapper:after {
   }*/
   
   /* h3, h4, h5, h6 following directly after h2, h3, h4, h5 */
-  body .ck-content h2 + h3,
+  /* body .ck-content h2 + h3,
   body .ck-content h3 + h4,
   body .ck-content h4 + h5,
   body .ck-content h5 + h6 {
       margin-top: var(--spacing-content-normal);
-  }
+  } */
   
   /* h3 */
   body .ck-content h3 {
